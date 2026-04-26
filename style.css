@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#game {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#sky {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+#player {
+  position: absolute;
+  width: 80px;
+  left: 100px;
+  top: 400px;
+  z-index: 2;
+}
+
+#block {
+  position: absolute;
+  width: 60px;
+  left: 300px;
+  top: 300px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#virus {
+  position: absolute;
+  width: 70px;
+  left: 600px;
+  top: 200px;
+  z-index: 3;
+}
+
+.spawn {
+  position: absolute;
+  width: 60px;
+  z-index: 2;
+}
+#game {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#sky {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+#player {
+  position: absolute;
+  width: 80px;
+  z-index: 5;
+}
+
+#block {
+  position: absolute;
+  width: 80px;
+  left: 400px;
+  top: 350px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+#virus {
+  position: absolute;
+  width: 80px;
+  z-index: 5;
+}
+
+.spawn {
+  position: absolute;
+  width: 60px;
+  z-index: 20;
+}
