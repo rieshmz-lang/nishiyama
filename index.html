@@ -53,9 +53,9 @@ body {
 <body>
 
 <div id="game">
-  <img id="player" src="images/panda.png">
-  <img id="block" src="images/block.png">
-  <img id="virus" src="images/virus.png">
+  <img id="player" src="panda.png">
+  <img id="block" src="block.png">
+  <img id="virus" src="virus.png">
 </div>
 
 <script>
@@ -156,10 +156,10 @@ block.addEventListener("click", () => {
   const img = document.createElement("img");
 
   const animals = [
-    "images/gibbon.png",
-    "images/peacock.png",
-    "images/chabo.png",
-    "images/kinkei.png"
+    "gibbon.png",
+    "peacock.png",
+    "chabo.png",
+    "kinkei.png"
   ];
 
   img.src = animals[Math.floor(Math.random() * animals.length)];
